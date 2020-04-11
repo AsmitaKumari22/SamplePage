@@ -105,3 +105,11 @@ color: #fff;
 
 	}
 }
+header {
+    padding: 25px;
+    background: #2c3e50;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
