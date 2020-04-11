@@ -197,4 +197,58 @@ footer ul li a:hover {
     background: #2c3e50;
     color: #fff;
 }
+.banner
+{
+	height: 700px;
+	top:0;
+	bottom: 0;
+	margin:auto ;
+	position: relative;
+	background: url(./asmi.jpg) no-repeat;
+	background-size: cover;
+
+}
+.banner-text
+{
+	position: absolute;
+	text-align: center;
+	top: 175px;
+	left: 95px;
+	color: white;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.View-portfolio
+{
+	display: inline-block;
+	width: 300px;
+}
+
+.View-portfolio a{
+	padding: 20px 40px;
+	background-color: black;
+	text-decoration: none;
+}
+.ContactUs {
+
+	display: inline-block;
+	width: 250px;
+}
+.ContactUs a{
+	padding: 20px 40px;
+	background-color: black;
+	text-decoration: none;
+}
+.ContactUs a:hover{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}
+.View-portfolio a:hover{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}
 
