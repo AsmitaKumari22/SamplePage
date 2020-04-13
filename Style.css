@@ -303,7 +303,7 @@ padding: 15px;
 
 .btn{
 	background: #827ffe;
-	text-align: center;;
+	text-align: center;
 
 	color: white;
 	padding: 12px;
@@ -323,3 +323,83 @@ color: #9a99aa;
 
 
 }
+.about-me-section{
+
+	height: 580px;
+	background-color: #535274;
+	}
+	.about-me{
+
+		padding: 20px;
+		display: flex;
+		justify-content: space-around;
+	}
+	.image_section{
+
+		padding: 20px;
+		border: 2px solid #2c3e50 ;
+		border-radius: 20px;
+		box-shadow: 0 0 50px #fff;
+		background:#2c3e50;
+		display: block;
+		position: absolute;
+		left: 150px;
+	}
+
+.text_content{
+
+display: flex;
+justify-content: space-around;
+padding: 40px;
+width: 300px;
+height: 410px;
+border-radius: 20px;
+border: 2px solid #2c3e50;
+background: #2c3e50;
+box-shadow: 0 0 50px #fff;
+position: absolute;
+right: 150px;
+	}
+
+
+.text_content h1{
+
+		color: #fff;
+		font-size: 33px;
+	}
+
+	.text_content p{  
+		color:white;
+		letter-spacing: 1px;
+		text-align: left;
+		padding: 30px;
+		line-height: 1.5;
+		left:3px;
+		font-size: 15px;
+		position: absolute;
+		top: 80px;
+  	}
+
+     .viewProfile a{
+  		padding: 12px ;
+  		margin: 12px ;
+  		text-align: center;
+  		color:#2c3e50 ;
+  		text-decoration: none;
+  		text-transform: uppercase;
+  		border-radius: 50px;
+  		background-color: #fff;
+  		border: 3px solid  #2c3e50;
+  		position: absolute;
+  		bottom: 30px;
+  		transition: 0.5s;
+  		font-size:14px;
+  		left:25%;
+  		width:150px;
+
+  	}
+  	.viewProfile a:hover{
+
+  		background: #535274;
+  		color: #fff;
+  	}
