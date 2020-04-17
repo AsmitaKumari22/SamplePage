@@ -341,7 +341,7 @@ color: #9a99aa;
 		border-radius: 20px;
 		box-shadow: 0 0 50px #fff;
 		background:#2c3e50;
-		display: block;
+		display: flex;
 		position: absolute;
 		left: 150px;
 	}
@@ -366,6 +366,14 @@ right: 150px;
 
 		color: #fff;
 		font-size: 33px;
+		text-shadow: 2px 2px black;
+		text-decoration: underline;
+		text-align: center;
+		font-style: oblique;
+		font-variant:normal;
+		animation: text 3s 1;
+
+
 	}
 
 	.text_content p{  
@@ -402,4 +410,22 @@ right: 150px;
 
   		background: #535274;
   		color: #fff;
+  	}
+
+  	@keyframes text {
+0%{
+    color:black;
+    margin-bottom: -40px;
+}
+30%{
+
+	letter-spacing: 25px;
+	margin-bottom: -20px;
+}
+85%{
+
+	letter-spacing: 10px;
+	margin-bottom: -30px;
+}
+
   	}
